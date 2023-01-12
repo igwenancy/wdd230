@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Roboto&display=swap'); 
+
+body {
+    font-family: 'Lato', sans-serif;
+    max-width: 640px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+header, footer {
+    background-color: #2A3990;
+    color: white;
+    text-align: center;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+section {
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 10px; 
+    max-width: 300px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #9C254D;
+    text-align: center;
+}
+
+.card {
+    padding: 10px;
+}
+
+section ul li {
+    list-style-type: none;
+}
+
+section ul {
+    padding-left: 5px;
+}

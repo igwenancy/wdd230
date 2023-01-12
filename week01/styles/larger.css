@@ -1,0 +1,26 @@
+@media only screen and (min-width: 600px) {
+    body {
+        max-width: 1000px;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 800px;
+        margin-left: 70px;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 500px;
+    }
+
+    h3 {
+        grid-column: 1/2;
+        font-size: 25px;
+    }
+
+    p, ul, img{
+        grid-column: 2/3;
+    }
+}
