@@ -20,10 +20,11 @@
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
-    <nav>
-        <svg class="menu" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z"/></svg>
-        <a href="https://www.linkedin.com/">linkedin</a>
-        <a href="https://www.byui.edu/">BYU-Idaho</a>
+    <nav class="menu">
+        <svg id="menu-button" xmlns="http://www.w3.org/2000/svg" height="48" width="48"><path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z"/></svg>
+        <a href="https://www.linkedin.com/" class="menu-item">linkedin</a>
+        <a href="https://www.byui.edu/" class="menu-item">BYU-Idaho</a>
+        <div id="mode">☑️</div>
     </nav>
     <header>
         <img class="profile" src="images/profile.png" alt="profile">
@@ -61,5 +62,7 @@
         <p class="highlight" id="lastModified"></p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/dark.js"></script>
 </body>
 </html>  

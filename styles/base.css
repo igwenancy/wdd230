@@ -20,7 +20,35 @@ nav {
 
 }
 
-nav a:link {
+.menu {
+    position:fixed;
+    right: 0;
+    overflow: hidden;
+}
+
+.menu a {
+	background: white;
+	color: #301934;
+}
+
+nav a.menu-item {
+	display: none;
+}
+
+nav a.open {
+	display: flex;
+}
+
+.close::before {
+	content: "❌";
+}
+
+.menu a:hover {
+    background-color: #7289da;
+    color: white;
+}
+
+/*nav a:link {
     color: black;
     text-decoration: none;
 }
@@ -34,6 +62,7 @@ nav a:hover {
     color: blue;
     text-decoration: none;
 }
+*/
 
 header, footer {
     background-color: #7289da;
@@ -114,4 +143,8 @@ h3 {
 
 .card {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#mode {
+    cursor: pointer;
 }
