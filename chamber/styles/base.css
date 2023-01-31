@@ -1,0 +1,253 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    max-width: 600px;
+    background: white;
+    margin: 1rem auto;
+    padding: 10px;
+}
+
+header, footer {
+    
+    background-color: #d23369;
+    padding: 5px 0px 5px 5px ;
+    max-width: 95%;
+}
+
+.logo-navigation {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.logo-name {
+    justify-content: flex-start;
+    display: flex;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+}
+
+.websites-navigation {
+    display: flex;
+}
+
+h5 {
+    display: flex;
+    font-size: 15px;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+
+    /*transition: 0.5s;*/
+
+}
+
+.menu::before {
+    content: "≡";
+    color: black;
+    background-color: #2a3990;
+	font-size: 2rem;
+    padding-bottom: 4px;
+    border: 0cm;
+}
+
+
+
+.navigation a:hover, navigation a:active {
+	color: white;
+}
+
+
+.responsive li {
+	display: block;
+}
+
+.responsive a.menu::before {
+	content: "≡";
+    color: black;
+	font-size: 1.5rem;
+    padding-bottom: 4px;
+}
+
+.linkedin, .facebook {
+    max-height: 40px;
+    max-width: 40px;
+}
+
+.websites-navigation {
+    max-height: 40px;
+}
+
+.navigation{
+    border: 1px solid #cccfdb;
+    border-radius: 2px;
+ }
+ ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+ }
+ 
+ li {
+   float: left;
+ }
+ 
+ li a {
+   position: relative;
+   display: block;
+   color: #fff;
+   text-align: center;
+   padding: 8px 12px;
+   text-decoration: none;
+   z-index: 0;
+ }
+ 
+ li a:before {
+   position: absolute;
+   content: "";
+   width: 100%;
+   height: 100%;
+   bottom: 0;
+   left: 0;
+   background-color: #1a9e9d;
+   z-index: -1;
+   transform: scale(0);
+   transition: transform 0.5s ease-in-out;
+ }
+
+ li a:hover {
+    background-color: #1a9e9d;
+  }
+ 
+ li a:hover:before,
+ li a:focus:before {
+   transform: scale(1);
+ }
+
+ .footer {
+    display: flex;
+    
+}
+
+footer img.logo {
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.top {
+    text-align: center;
+}
+
+.top p {
+    font-style: italic;
+}
+
+.middle {
+    text-align: center;
+}
+
+.bottom {
+    text-align: center;
+}
+
+hr.line {
+    border: 1px solid white;
+}
+
+main {
+    border: 1px solid rgba(0,0,0,0.3);
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0 0 2px #333;
+    background: white;
+    border-radius: 5px;
+}
+
+/* Hero Image */
+.card1 {
+    position: relative;
+    padding: 0;
+}
+
+picture img {
+    margin: 0;
+    padding: 0;
+    max-width: 50%;
+    height: 100%;
+}
+
+.card1 a {
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    background-color: rgb(7, 167, 68);
+    padding: 10px;
+    border-radius: 10px;
+    right: 5px;
+    bottom: 10px;
+    transition: all 0.2s ease-out;
+}
+
+.card1 a:hover {
+    background-color: rgb(9, 114, 6);
+    text-shadow: 0 0 20px rgb(0, 0, 0);
+
+}
+
+.hero-1000 {
+    display: none;
+}
+
+.card2, .card3 {
+    height: 200px;
+    width: 290px;
+    background-color: lightgray;
+    padding: 5px;
+}
+
+.card2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card4 {
+    height: 700px;
+    width: 260px;
+    margin-left: 15px;
+}
+
+.spotlight1, .spotlight2, .spotlight3 {
+    height: 200px;
+    background-color: lightgray;
+}
