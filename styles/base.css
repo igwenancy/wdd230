@@ -148,3 +148,13 @@ h3 {
 #mode {
     cursor: pointer;
 }
+
+picture {
+    width: 100%;
+    height: auto;
+}
+
+.map {
+    width: 100%;
+    height: auto;
+}
