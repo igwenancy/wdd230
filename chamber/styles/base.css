@@ -5,17 +5,17 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    max-width: 600px;
+    width: 100%;
+    max-width: 95%;
     background: white;
-    margin: 1rem auto;
-    padding: 10px;
+    margin: auto;
 }
 
 header, footer {
     
     background-color: #d23369;
     padding: 5px 0px 5px 5px ;
-    max-width: 95%;
+    max-width: 100%;
 }
 
 .logo-navigation {
@@ -192,62 +192,68 @@ main {
     border-radius: 5px;
 }
 
-/* Hero Image */
+main {
+    margin : 1rem 2vw;
+    padding: 1rem 2vw;
+    border-radius: 1px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px;
+    font-size: 15px;
+    grid-gap: 10px;
+    
+}
+
 .card1 {
-    position: relative;
-    padding: 0;
+    padding-bottom: none;
 }
 
-picture img {
-    margin: 0;
-    padding: 0;
-    max-width: 50%;
-    height: 100%;
+.grid-container > main {
+    background-color: lightgrey;
 }
 
-.card1 a {
-    position: absolute;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: larger;
-    background-color: rgb(7, 167, 68);
+main div {
+    background-color: lightgrey;
+    min-height: 200px;
+    text-align: left;
     padding: 10px;
-    border-radius: 10px;
-    right: 5px;
-    bottom: 10px;
-    transition: all 0.2s ease-out;
 }
 
-.card1 a:hover {
-    background-color: rgb(9, 114, 6);
-    text-shadow: 0 0 20px rgb(0, 0, 0);
-
-}
-
-.hero-1000 {
-    display: none;
-}
-
-.card2, .card3 {
-    height: 200px;
-    width: 290px;
-    background-color: lightgray;
-    padding: 5px;
-}
-
-.card2 {
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-.card4 {
-    height: 700px;
-    width: 260px;
-    margin-left: 15px;
+.card1, .card2, .card3{
+    border: 1px solid grey;
 }
 
 .spotlight1, .spotlight2, .spotlight3 {
-    height: 200px;
-    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid grey;
 }
+
+.card4 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: white;
+}
+
+.banner-1000 {
+    display: none;
+}
+
+.banner-600 {
+    width: 300px;
+}
+
+.banner-btn {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    background-color: blue;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
