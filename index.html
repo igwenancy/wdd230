@@ -31,10 +31,14 @@
         <h1>Nancy Igwe</h1>
     </header>
     <main>
-       <!-- <picture>
-            <source media="(min-width: 300px)" srcset="images/aba-400.webp">  
-            <source media="(min-width: 640px)" srcset="images/aba-temple.webp">  
-        </picture>-->
+       <picture>
+            <source media="(min-width: 300px)" srcset="images/aba-400.webp" loading="lazy">  
+            <source media="(min-width: 640px)" srcset="images/aba-temple.webp" loading="lazy">  
+            <img src="images/aba-temple.webp" alt="temple" loading="lazy">
+        </picture>
+        <div class="herolabel">
+			<p>Aba Nigeria Temple</p>
+		</div>
         <h2>WDD 230: Course Activity Portal</h2>
         <div class="cards">
         <section class="card" id="learning">

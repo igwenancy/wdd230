@@ -2,10 +2,11 @@
     nav {
         flex-direction: row-reverse;
         justify-content: flex-start;
+        padding-right: 100px;
     }
 
     body {
-        max-width: 1000px;
+        max-width: 1200px;
         font-size: 30px;
     }
 
@@ -58,6 +59,26 @@
     .highlight {
         grid-column: 1/4;
         text-align: center;
+    }
+
+    .herolabel {
+        position: absolute;
+        top: 200px;
+        left: 400px;
+        background: radial-gradient(#fff, #4D5B97);
+        border: 1px solid rgba(0,0,0,.75);
+        padding: 1.5rem;
+        box-shadow: 0 0 3rem #fff;
+        opacity: 0.75;
+        /* Buenas */
+    }
+    
+    .herolabel p {
+        margin: 0;
+        padding: .25rem;
+        font-weight: 700;
+        font-size: 2rem;
+        font-family:"Great Vibes", serif;
     }
 
 }
