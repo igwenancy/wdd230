@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Home Page</title>
+    <meta name="description" content="Media query learning activity example page.">
+    <meta name="author" content="[Put your full name here]">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <header>
+        <div class="logo-navigation">
+        <div class="logo-name">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <div class="chamber-name">
+        <h4>Idaho Falls</h4>
+        <h5>Chamber of Commerce</h5>
+        </div>
+        </div>
+            <div class="websites-navigation">
+                <a href="www.linkedin.com"><img class="linkedin" src="images/linkedin.png" alt="linkedin"></a>
+                <a href="www.facebook.com"><img class="facebook" src="images/faceboook.png" alt="facebook"></a>
+                <nav>
+                    <ul class="navigation">
+                        <li><a class="menu" href="#"></a></li>
+                        <li><a class="home" href="index.html">Home</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="directory.html">Directory</a></li>
+                        <li><a href="join.html">Join</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                </div>
+            </div>
+    </header>
+    <main class="main-join">
+        <h1 class="form-header">Join us</h1>
+
+        <form method="get" action="thankyou.html">
+
+            <fieldset>
+
+                <legend>Personal Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" required></label>
+                <label class="top">Business Position <input type="text" pattern="([A-Za-z]).{7,}" name="position"></label>
+                <label class="top">Email Address* <input type="email" name="email" placeholder="someone@email.com" required></label>
+                <label class="top">Phone Number* <input type="tel" name="phone" required></label>
+                <label class="top">Business Name* <input type="text" name="phone" required></label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Membership Level</legend>
+                <label class="sbs"><input type="radio" name="membership"> NP Membership</label>
+                
+                <label class="sbs"><input type="radio" name="membership"> Bronze Membership</label>
+                
+                <label class="sbs"><input type="radio" name="membership"> Silver Membership</label>
+                
+                <label class="sbs"><input type="radio" name="membership"> Gold Membership</label>
+                
+
+            </fieldset>
+
+            <div class="levels">
+
+                <div class="np-level">
+                    <h2>Non-profit Level</h2>
+                    <ul>
+                        <li>No Fee</li>
+                    </ul>
+                </div>
+                <div class="bronze-level">
+                    <h2>Bronze Level</h2>
+                    <ul>
+                        <li>10% discount on events</li>
+                        <li>10% discount on advertising</li>
+                        <li>Free participation in the trade fair</li>
+                        <li>Fee of $50/month</li>
+                    </ul>
+                </div>
+                <div class="silver-level">
+                    <h2>Silver Level</h2>
+                    <ul>
+                        <li>25% discount on events</li>
+                        <li>25% discount on advertising</li>
+                        <li>Free participation in the trade fair</li>
+                        <li>Fee of $100/month</li>
+                    </ul>
+                </div>
+                <div class="gold-level">
+                    <h2>Gold Level</h2>
+                    <ul>
+                        <li>50% discount on events</li>
+                        <li>50% discount on advertising</li>
+                        <li>5 free featured ads per year</li>
+                        <li>5 free training per quarter</li>
+                        <li>Fee of $250/month</li>
+                    </ul>
+                </div>
+            </div>
+
+            <fieldset>
+
+                <legend>Business Description</legend>
+                <label><textarea name="business" id="businessDescription"></textarea></label>
+                <input type="hidden" id="datetime" name="currdatetime" value="">
+
+            </fieldset>
+
+            <input type="submit" value="Join Now" class="submitBtn">
+
+            
+        </form>
+        
+    </main>
+    <footer>
+        <div class="top-middle">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <div class="top">
+            <h3>Idaho Falls Chamber of Commerce</h3>
+            <p>10 Rue De La Paix</p>
+            <p>Idaho , Mali 999</p>
+        </div>
+        <div class="middle">
+            <p>info@timbuktucc.org</p>
+            <p>+(223) 2070-2300</p>
+            <p>Location map</p>
+        </div>
+    </div>
+    <div class="line-bottom">
+        <hr class="line">
+        <div class="bottom">
+          <p>&copy; 2023 Idaho Falls Chamber</p> 
+          <p><strong>Nancy Igwe</strong></p>
+          <p> WDD 230 Project</p>
+          <p> Last Updated: <span id="updatedDate"></span></p>
+        </div>
+    </div>
+    </footer>
+    <script src="scripts/index.js"></script>
+</body>
+</html>

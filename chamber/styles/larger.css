@@ -175,4 +175,31 @@
     .pictures {
         grid-column: 2/5;
     }
+
+    form {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    fieldset {
+        grid-column: 2/4;
+    }
+
+    form label.top {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    form label.top input {
+        grid-column: 2/3;
+    }
+
+    .levels {
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+
+    .submitBtn {
+        grid-column: 2/4;
+    }
 }
