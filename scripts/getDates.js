@@ -23,3 +23,40 @@ if (numVisits !== 0) {
 numVisits++;
 // store the new number of visits value
 localStorage.setItem("visits-ls", numVisits);
+
+const rating = document.getElementById("rating");
+const rangevalue = document.getElementById("rating");
+
+function displayRatingValue() {
+    rating.innerHTML = rangevalue.value;
+}
+
+rangevalue.addEventListener('change', displayRatingValue);
+rangevalue.addEventListener('input', displayRatingValue);
+
+
+const user1 = document.querySelector("#username");
+const user2 = document.querySelector("#username2");
+
+user2.addEventListener("focusout", checkSame);
+
+// This should be refactored.
+function checkSame() {
+	if (user1.value !== user2.value) {
+		message.textContent = "Passwords DO NOT MATCH!";
+		message.style.display = "block";
+		user2.style.backgroundColor = "#aa3333";
+		user2.style.color = "#fff";
+		user2.focus();
+		user2.value = "";
+	} else {
+		message.style.display = "none";
+		user2.style.backgroundColor = "#fff";
+		user2.style.color = "#000";
+	}
+}
+
+function showMessage() {
+	var message=document.getElementById("btnSubmit").value;
+	display_message.innerHTML = message;
+}
