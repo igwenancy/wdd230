@@ -1,0 +1,23 @@
+{
+    "familyName" : "Igwe",
+    "date" : "December 2017",
+    "number" : 3,
+    "visited" : false,
+    "members" : [
+      {
+        "name" : "Nancy",
+        "gender" : "F",
+        "birthDate" : "June 2001"
+      },
+      {
+        "name" : "Isabel",
+        "gender" : "F",
+        "birthDate" : "June 2003"
+      },
+      {
+        "name" : "Amarachi",
+        "gender" : "F",
+        "birthDate" : "June 1995"
+      }
+    ]
+  }
