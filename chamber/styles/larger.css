@@ -98,7 +98,7 @@
         background-size: cover;
     }
 
-    main {
+    .index-main {
             max-width: 90%;
             grid-template-columns: 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr 1fr;
@@ -159,5 +159,20 @@
         font-size: 40px;
         color: white;
         border-radius: 10px;
+    }
+
+    .discover-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .side-bar {
+        grid-column: 1/2;
+        margin: 30px;
+    }
+
+    .pictures {
+        grid-column: 2/5;
     }
 }

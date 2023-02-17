@@ -183,7 +183,7 @@ hr.line {
     border: 1px solid white;
 }
 
-main {
+.index-main {
     border: 1px solid rgba(0,0,0,0.3);
     margin: 1rem;
     padding: 1rem;
@@ -192,7 +192,7 @@ main {
     border-radius: 5px;
 }
 
-main {
+.index-main {
     margin : 1rem 2vw;
     padding: 1rem 2vw;
     border-radius: 1px;
@@ -212,7 +212,7 @@ main {
     background-color: lightgrey;
 }
 
-main div {
+.index-main div {
     background-color: lightgrey;
     min-height: 200px;
     text-align: left;
@@ -255,5 +255,37 @@ main div {
     border-radius: 10px;
 }
 
+/* Discover Page */
+.dcard {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin: 1rem 2vw;
+    padding: 1rem 2vw;
+    box-shadow: 0 0 2px #333;
+    background: white;
+    border-radius: 5px;
+}
 
+.days-elapsed {
+    margin-left: 2vw;
+    font-weight: bold;
+}
 
+.last-visited {
+    color: red;
+}
+
+.dcard .picture-element img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.picture-element img:hover {
+    box-shadow: 0 0 50px #333;
+}
+
+.side-bar {
+    text-align: center;
+}
