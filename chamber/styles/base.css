@@ -79,7 +79,10 @@ h5 {
     border: 0cm;
 }
 
-
+img {
+    height: auto;
+    width: 100%;
+}
 
 .navigation a:hover, navigation a:active {
 	color: white;
@@ -183,6 +186,18 @@ hr.line {
     border: 1px solid white;
 }
 
+.card3 section{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #f4c2c2;
+}
+.card3 .weather-image{
+    background-color: #d23369;
+    font-size: 1rem;
+
+}
+
 .index-main {
     border: 1px solid rgba(0,0,0,0.3);
     margin: 1rem;
@@ -208,12 +223,16 @@ hr.line {
     padding-bottom: none;
 }
 
+.card2 {
+    background-color: #f06292;
+}
+
 .grid-container > main {
     background-color: lightgrey;
 }
 
 .index-main div {
-    background-color: lightgrey;
+    /*background-color: lightgrey;*/
     min-height: 200px;
     text-align: left;
     padding: 10px;
@@ -254,6 +273,8 @@ hr.line {
     color: white;
     border-radius: 10px;
 }
+
+.banner-btn:hover {background-color: #3e8e41}
 
 /* Discover Page */
 .dcard {

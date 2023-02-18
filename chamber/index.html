@@ -16,6 +16,7 @@
 </head>
 <body>
     <header>
+        <div id="meetingBanner"></div>
         <div class="logo-navigation">
         <div class="logo-name">
         <img class="logo" src="images/logo.png" alt="logo">
@@ -30,7 +31,7 @@
                 <nav>
                     <ul class="navigation">
                         <li><a class="menu" href="#"></a></li>
-                        <li><a class="home" href="index.html">Home</a></li>
+                        <li><a href="index.html">Home</a></li>
                         <li><a href="discover.html">Discover</a></li>
                         <li><a href="directory.html">Directory</a></li>
                         <li><a href="join.html">Join</a></li>
@@ -57,18 +58,25 @@
 
         <div class="card3">
             <h2>Weather</h2>
-            <h3> Partly Cloudy</h3>
-            <p>Wind Speed: 2.5km/h
-                Wind Chill: N/A
-            </p>
+                <section class="weather">
+                    <div class="weather-image">
+                        <p><span id="weather-temp"></span>&deg;F</p>
+                        <figure><img src="" alt="" id="weathericon" width="30px" height="30px"> <figcaption></figcaption></figure>
+                    </div>
+                </section>
+                <div class="wind">
+                    <h3>Weather Description: <span id="desc"></span></h3>
+                    <h3>Wind Speed: <span id="wind-speed"></span></h3>
+                </div>
         </div>
         <div class="card4">
             <h1>Member Spotlights</h1>
-                <div class="spotlight1"> <h2>Thankful Transport</h2>
+                <div class="spotlight1"> 
+                    <span class="data"></span>
                 </div>
-                <div class="spotlight2"> <h2>Code Primera</h2>
+                <div class="spotlight2"> 
                 </div>
-                <div class="spotlight3"> <h2>Build a Treefort</h2>
+                <div class="spotlight3"> 
                 </div>
         </div>
     </main>
@@ -97,5 +105,7 @@
     </div>
     </footer>
     <script src="scripts/index.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/directory.js"></script>
 </body>
 </html>

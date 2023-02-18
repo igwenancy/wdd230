@@ -40,3 +40,12 @@ console.log(userDays - parseInt(fd))
 // Get the element in html and set its textContent to days elapsed.
 let daysElapsed = document.querySelector('.last-visited');
 daysElapsed.textContent = userDays - parseInt(fd);
+
+const d = new Date();
+let day = d.getDay();
+greeting = document.getElementById("meetingBanner");
+if (day == 1 || day == 2 || day == 3) {
+    greeting.classList.add("True")
+    greeting.innerHTML = "Join us for the chamber of commerce meet and greet on Wednesday at 7:00 p.m.";
+}
+

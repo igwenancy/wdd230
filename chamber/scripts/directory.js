@@ -55,3 +55,4 @@ function tolistView() {
     currentDivView.classList.remove("cards");
     currentDivView.classList.add("list");
 }
+
