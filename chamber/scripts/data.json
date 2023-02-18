@@ -1,0 +1,68 @@
+{
+    "businesses": [
+        {
+            "name": "Albertsons",
+            "address": "1705 W Broadway St",
+            "phone": "208-789-5656",
+            "website": "https://www.albertsons.com",
+            "imageurl": "https://png.pngitem.com/pimgs/s/177-1775055_albertsons-marketplace-logo-hd-png-download.png",
+            "membership": "np-level"
+        },
+        {
+            "name": "Walmart",
+            "address": "1450 N 2nd E, Rexburg, ID 83440",
+            "phone": "208-359-2809",
+            "website": "https://www.walmart.com/",
+            "imageurl": "https://cdn.corporate.walmart.com/dims4/WMT/71169a3/2147483647/strip/true/crop/2389x930+0+0/resize/980x381!/quality/90/?url=https%3A%2F%2Fcdn.corporate.walmart.com%2Fd6%2Fe7%2F48e91bac4a8ca8f22985b3682370%2Fwalmart-logos-lockupwtag-horiz-blu-rgb.png",
+            "membership": "gold-level"
+        },
+        {
+            "name": "JCPenney",
+            "address": "2320 E 17th St, Idaho Falls, ID 83404",
+            "phone": "208-523-3071",
+            "website": "https://www.jcpenney.com/",
+            "imageurl": "https://logos-world.net/wp-content/uploads/2022/01/JCPenney-Logo.jpg",
+            "membership": "bronze-level"
+        },
+        {
+            "name": "WinCo Foods",
+            "address": "333 N Woodruff Ave, Idaho Falls, ID 83401",
+            "phone": "289-555-4567",
+            "website": "https://www.wincofoods.com",
+            "imageurl": "https://logo-all.ru/uploads/posts/2016-04/0_winco_foods_logo.jpg",
+            "membership": "silver-level"
+        },
+        {
+            "name": "Barnes and Noble",
+            "address": "2300 E 17th St Suite #1101, Idaho Falls, ID 83404",
+            "phone": "208-552-1452",
+            "website": "https://www.barnesandnoble.com/",
+            "imageurl": "https://1000logos.net/wp-content/uploads/2020/09/Barnes-Noble-Logo.png",
+            "membership": "np-level"
+        },
+        {
+            "name": "Wendy's",
+            "address": "1333 Northgate Mile, Idaho Falls, ID 83401",
+            "phone": "208-522-5322",
+            "website": "https://www.wendys.com/",
+            "imageurl": "https://www.gannett-cdn.com/media/USATODAY/WiresImages/2012/10/11/820fbb8bab63a41c1d0f6a70670052a9-16_9.jpg?width=1200&disable=upscale&format=pjpg&auto=webp",
+            "membership": "silver-level"
+        },
+        {
+            "name": "IHOP",
+            "address": "2463 S 25th E, Ammon, ID 83406",
+            "phone": "208-524-0885",
+            "website": "https://www.ihop.com/en",
+            "imageurl": "https://media.wired.com/photos/59324b54b8eb31692072e977/191:100/w_1280,c_limit/ihope-gallery-ft.png",
+            "membership": "gold-level"
+        },
+        {
+            "name": "Target",
+            "address": "2171 S 25th E, Idaho Falls, ID 83406",
+            "phone": "208-535-2285",
+            "website": "https://www.target.com/",
+            "imageurl": "https://corporate.target.com/_media/TargetCorp/Press/B-roll%20and%20Press%20Materials/Logos/Target_Bullseye-Logo_Red.jpg?preset=640w",
+            "membership": "np-level"
+        }
+    ]
+}
